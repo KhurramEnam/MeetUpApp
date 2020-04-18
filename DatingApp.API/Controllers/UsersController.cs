@@ -24,6 +24,7 @@ namespace DatingApp.API.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetUsers()
         {
 
